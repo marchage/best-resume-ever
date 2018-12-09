@@ -14,31 +14,26 @@ birth:
 
 experience:
 - company: Datlinq
-  position: Programmer, mostly backend
+  position: Programmer
   timeperiod: since March 2018
   description: JavaScript and php programmer.
   website: https://datlinq.com/
 
 - company: Sendsteps
-  position: Programmer
+  position: Programmer and devops
   timeperiod: April 2016 - March 2018
   description: Javascript and php programmer, devops.
   website: https://www.sendsteps.com/
 
-- company: De Applicatie Laag
-  position: Freelance programmer
-  timeperiod: December 2014 - June 2015
-  description: Javascript programmer, technical consultant.
-
-- company: Atabix Solutions
+- company: Atabix
   position: Programmer
   timeperiod: Januari 2012 - December 2012
   description: Javascript and php programmer.
   website: https://www.atabix.com/
 
-- company: MARC-IT
-  position: Freelance programmer
-  timeperiod: June 2006 - August 2013
+- company: ...(various)
+  position: Programmer, freelance
+  timeperiod: June 2006 - August 2013 & December 2014 - June 2015
   description: Javascript php programmer, technical consultant (/instructor/network admin/helpdesk).
 
 - company: Sogeti
@@ -47,39 +42,44 @@ experience:
   description: test engineer, web app pen-tester.
   website: https://www.sogeti.nl/
 
-- company: V&D, Perla Kantoor, Phones H'stede
+- company: V & D, Perla Kantoor, Phones H'stede
   position: Sales clerk
   timeperiod: 1998 - 2006
-  description: Part-time sales clerk
+  description: Sales clerk, part-time
 
 education:
 - degree: Bachelor of Science
   timeperiod: 2001 - 2010
-  description: Informatica (i.e. Computer Science), Vrije Universiteit, Amsterdam, The Netherlands.
+  description: Informatica, Vrije Universiteit, Amsterdam, The Netherlands.
   website: https://www.vu.nl/
 
-- degree: Business course Sogeti
-  timeperiod: Summer of 2010
-  description: Required for all future Sogeti testers (30-), Ohio University, Athens, oh, United States of America.
+- degree: TMap Next & Business course Sogeti
+  timeperiod: July 2010 - September 2010
+  description: Sogeti (NL) & Ohio University (US).
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
+- name: HTML, CSS
+  level: 90
 - name: JavaScript
-  level: 97
-- name: Node.js
   level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
+- name: Angular
+  level: 66
+- name: React
+  level: 78
+- name: Ecma2015
   level: 80
-- name: ES.Next
+- name: Node.js
   level: 70
+- name: PHP
+  level: 85
+- name: Yii2
+  level: 86
+- name: Typo3
+  level: 80
 - name: Docker
-  level: 99
+  level: 81
+
 knowledge: Also proficient in Adobe Photoshop and to a lesser extent Adobe Illustrator
 
 projects:
@@ -90,9 +90,7 @@ projects:
 
 - name: running a part-time IT business
   platform: Typo3, PHP, HTML/CSS, Ubuntu, Windows
-  description: servicing clients in their IT needs. By accident I ended up doing 
-    Typo3, which allowed me to be competative compaired to more established companies.
-    I knew every quirk of every browser and how to equalize them to get an consistent look.
+  description: servicing clients in their IT needs.
   url: (not the current) https://www.use-poultry-tech.com/, (clients of) https://www.vicus.nl
 
 hobbies:
@@ -118,12 +116,12 @@ contributions:
   url: https://github.com/marchage
 
 contact:
-  email: marc.hage@me.com, linked-in is peferable
-  phone: at request
-  street: at request
+  email: marc.hage@me.com
+  phone: -- (at request)
+  street: -- (at request)
   city: Amsterdam
-  website: marchage.github.io
+  website: marchage.github.com
   github: marchage
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
-lang: nl, en
+lang: en
 `
