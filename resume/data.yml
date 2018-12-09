@@ -1,43 +1,67 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
-  middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  first: Marc
+  middle: R.
+  last: Hage
+about: Hi, my name is Marc Hage. I"m just about the most boring type of person you could
+       possibly imagine. I've always worked with web languages. I love coding, keeping 
+       things simple and/or adhering to technical standards. I used to steer clear of 
+       javascript. Now it is the opposite.
+position: Web software developer/junior devops
 
 birth:
-  year: 1990
-  location: New York
+  year: 1980
+  location: Heemstede
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Datlinq
+  position: Programmer, mostly backend
+  timeperiod: since March 2018
+  description: JavaScript and php programmer.
+  website: https://datlinq.com/
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Sendsteps
+  position: Programmer
+  timeperiod: April 2016 - March 2018
+  description: Javascript and php programmer, devops.
+  website: https://www.sendsteps.com/
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: De Applicatie Laag
+  position: Freelance programmer
+  timeperiod: December 2014 - June 2015
+  description: Javascript programmer, technical consultant.
+
+- company: Atabix Solutions
+  position: Programmer
+  timeperiod: Januari 2012 - December 2012
+  description: Javascript and php programmer.
+  website: https://www.atabix.com/
+
+- company: MARC-IT
+  position: Freelance programmer
+  timeperiod: June 2006 - August 2013
+  description: Javascript php programmer, technical consultant (/instructor/network admin/helpdesk).
+
+- company: Sogeti
+  position: Test engineer
+  timeperiod: July 2010 - December 2011
+  description: test engineer, web app pen-tester.
+  website: https://www.sogeti.nl/
+
+- company: V&D, Perla Kantoor, Phones H'stede
+  position: Sales clerk
+  timeperiod: 1998 - 2006
+  description: Part-time sales clerk
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
-
 - degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+  timeperiod: 2001 - 2010
+  description: Informatica (i.e. Computer Science), Vrije Universiteit, Amsterdam, The Netherlands.
+  website: https://www.vu.nl/
+
+- degree: Business course Sogeti
+  timeperiod: Summer of 2010
+  description: Required for all future Sogeti testers (30-), Ohio University, Athens, oh, United States of America.
 
 # skill level goes 0 to 100
 skills:
@@ -57,36 +81,50 @@ skills:
   level: 70
 - name: Docker
   level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+knowledge: Also proficient in Adobe Photoshop and to a lesser extent Adobe Illustrator
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: Quaestor College Chaos, Unitas Studiosorum Amstelodamensium
+  platform: Pen & paper, Excel
+  description: I was 1 of 3 fraternity board members. My role was comptroller for a year.
+  url: unsure
+
+- name: running a part-time IT business
+  platform: Typo3, PHP, HTML/CSS, Ubuntu, Windows
+  description: servicing clients in their IT needs. By accident I ended up doing 
+    Typo3, which allowed me to be competative compaired to more established companies.
+    I knew every quirk of every browser and how to equalize them to get an consistent look.
+  url: (not the current) https://www.use-poultry-tech.com/, (clients of) https://www.vicus.nl
 
 hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
+- name: Javascript-ing in various forms, e.g. node, greacemonkey, react
+  iconClass: fab fa-js-square
+  url: --
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+- name: shell (bash) scripting and thus server maintenance
+  iconClass: fas fa-terminal
+  url: --
+
+- name: digital automation
+  iconClass: fas fa-desktop
+  url: --
+
+- name: creating pretty interfaces
+  iconClass: fas fa-award
+  url: --
 
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: -- 
+  description: No open source contributions worth mentioning
+  url: https://github.com/marchage
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: marc.hage@me.com, linked-in is peferable
+  phone: at request
+  street: at request
+  city: Amsterdam
+  website: marchage.github.io
+  github: marchage
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
-lang: en
+lang: nl, en
 `
