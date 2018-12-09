@@ -38,7 +38,7 @@
         </tr>
         <tr v-if="person.contact.website">
           <td><a :href="person.contact.website">{{person.contact.website}}</a></td>
-          <td><i class="fas fa-globe" aria-hidden="true"></i></td>
+          <td><i class="fas fa-globe-americas" aria-hidden="true"></i></td>
         </tr>
         <tr v-if="person.contact.github">
           <td><a :href="'https://github.com/'+person.contact.github">https://github.com/{{person.contact.github}}</a></td>

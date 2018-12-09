@@ -65,7 +65,7 @@
               v-if="person.contact.website"
               class="section-link"
               :href="person.contact.website">
-              <i class="section-link__icon fas fa-globe"></i>{{ person.contact.website }}
+              <i class="section-link__icon fas fa-globe-americas"></i>{{ person.contact.website }}
             </a>
 
             <a

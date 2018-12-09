@@ -228,11 +228,13 @@ p {
 .fas, .fab, .material-icons {
   display:inline-block;
   font-style:normal;
-  font-weight:normal;
   line-height:1;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
   font-size:26px;
+}
+.material-icons {
+  font-weight:normal;
 }
 h1, h3, h5, h6 {
   font-weight:400;

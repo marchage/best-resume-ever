@@ -37,7 +37,7 @@
           :href="person.contact.website">
 
           <div class="block-marged txt-full-white">
-            <i class="fas fa-globe contact-icon"></i>
+            <i class="fas fa-globe-americas contact-icon"></i>
             {{ person.contact.website }}
           </div>
         </a>

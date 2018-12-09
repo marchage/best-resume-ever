@@ -37,7 +37,7 @@
           <td>{{person.contact.street}} <br> {{person.contact.city}}</td>
         </tr>
         <tr v-if="person.contact.website">
-          <td><i class="fas fa-globe" aria-hidden="true"></i></td>
+          <td><i class="fas fa-globe-americas" aria-hidden="true"></i></td>
           <td><a :href="person.contact.website">{{person.contact.website}}</a></td>
         </tr>
         <tr v-if="person.contact.github">
