@@ -1,12 +1,12 @@
 /* #*/ export const PERSON = `
 name:
   first: Marc
-  middle: R.
+  middle:
   last: Hage
 about: Hi, my name is Marc Hage. I've always worked with web languages. I love coding, keeping 
        things simple and/or adhering to technical standards. I used to steer clear of 
        javascript. Now it is the opposite.
-position: Web software developer/junior devops
+position: Web Programming & Devops
 
 birth:
   year: 1980
@@ -76,7 +76,7 @@ skills:
 - name: Yii2
   level: 86
 - name: Typo3
-  level: 80
+  level: 68
 - name: Docker
   level: 81
 
