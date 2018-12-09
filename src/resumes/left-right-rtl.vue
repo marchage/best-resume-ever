@@ -25,23 +25,23 @@
       <h3>{{ lang.contact }}</h3>
       <table>
         <tr>
-          <td><i class="fa fa-envelope" aria-hidden="true"></i></td>
+          <td><i class="fas fa-envelope" aria-hidden="true"></i></td>
           <td><a :href="'mailto:'+person.contact.email">{{person.contact.email}}</a></td>
         </tr>
         <tr>
-          <td><i class="fa fa-phone" aria-hidden="true"></i></td>
+          <td><i class="fas fa-phone" aria-hidden="true"></i></td>
           <td><a :href="'tel:'+person.contact.phone">{{person.contact.phone}}</a></td>
         </tr>
         <tr>
-          <td><i class="fa fa-home" aria-hidden="true"></i></td>
+          <td><i class="fas fa-home" aria-hidden="true"></i></td>
           <td>{{person.contact.street}} <br> {{person.contact.city}}</td>
         </tr>
         <tr v-if="person.contact.website">
-          <td><i class="fa fa-globe" aria-hidden="true"></i></td>
+          <td><i class="fas fa-globe" aria-hidden="true"></i></td>
           <td><a :href="person.contact.website">{{person.contact.website}}</a></td>
         </tr>
         <tr v-if="person.contact.github">
-          <td><i class="fa fa-github" aria-hidden="true"></i></td>
+          <td><i class="fab fa-github" aria-hidden="true"></i></td>
           <td><a :href="'https://github.com/'+person.contact.github">https://github.com/{{person.contact.github}}</a></td>
         </tr>
       </table>

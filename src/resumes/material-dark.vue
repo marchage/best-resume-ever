@@ -55,7 +55,7 @@
     <a v-if="person.contact.github" :href="'https://github.com/'+person.contact.github" target="_blank">
       <div class="item">
         <div class="icon">
-          <i class="fa fa-github"></i>
+          <i class="fab fa-github"></i>
         </div>
         <div class="text">
           <span>@{{person.contact.github}}</span>
@@ -84,7 +84,7 @@
           <span>{{skill.name}}&nbsp;</span>
           <div class="progress">
             <div class="determinate" :style="'width: '+skill.level+'%;'">
-              <i class="fa fa-circle"></i>
+              <i class="fas fa-circle"></i>
             </div>
           </div>
         </div>

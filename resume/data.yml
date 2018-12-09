@@ -68,11 +68,11 @@ projects:
 
 hobbies:
 - name: Video Games
-  iconClass: fa fa-gamepad
+  iconClass: fas fa-gamepad
   url: https://example.com
 
 - name: Drawing
-  iconClass: fa fa-pencil
+  iconClass: fas fa-pencil-alt
   url: https://example.com
 
 contributions:
