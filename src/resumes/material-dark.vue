@@ -55,7 +55,7 @@
     <a v-if="person.contact.github" :href="'https://github.com/'+person.contact.github" target="_blank">
       <div class="item">
         <div class="icon">
-          <i class="fa fa-github"></i>
+          <i class="fab fa-github"></i>
         </div>
         <div class="text">
           <span>@{{person.contact.github}}</span>
@@ -84,7 +84,7 @@
           <span>{{skill.name}}&nbsp;</span>
           <div class="progress">
             <div class="determinate" :style="'width: '+skill.level+'%;'">
-              <i class="fa fa-circle"></i>
+              <i class="fas fa-circle"></i>
             </div>
           </div>
         </div>
@@ -225,14 +225,16 @@ p {
 .m_box {
   box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
-.fa, .material-icons {
+.fas, .fab, .material-icons {
   display:inline-block;
   font-style:normal;
-  font-weight:normal;
   line-height:1;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
   font-size:26px;
+}
+.material-icons {
+  font-weight:normal;
 }
 h1, h3, h5, h6 {
   font-weight:400;
@@ -290,7 +292,7 @@ h4 {
       width:16%;
       float:left;
       margin-left:0;
-      .fa, .material-icons {
+      .fas, .fab, .material-icons {
         text-align:center;
         display:block;
         font-size:30pt;
@@ -362,7 +364,7 @@ h4 {
     width:100%;
     margin-top:13px;
     float:left;
-    .fa, .material-icons {
+    .fas, .fab, .material-icons {
       display:inherit;
       text-align:center;
     }
@@ -420,7 +422,7 @@ h4 {
             position:absolute;
             top:0;
             bottom:0;
-            .fa, .material-icons {
+            .fas, .fab, .material-icons {
               font-size:13px;
               position:absolute;
               top:-4px;

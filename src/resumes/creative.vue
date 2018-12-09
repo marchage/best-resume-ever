@@ -37,7 +37,7 @@
           :href="person.contact.website">
 
           <div class="block-marged txt-full-white">
-            <i class="fa fa-globe contact-icon"></i>
+            <i class="fas fa-globe-americas contact-icon"></i>
             {{ person.contact.website }}
           </div>
         </a>
@@ -46,7 +46,7 @@
           :href="'https://github.com/' + person.contact.github"
           class="external-link">
 
-          <i class="fa fa-github contact-icon"></i>
+          <i class="fab fa-github contact-icon"></i>
           <span class="block-marged txt-full-white">
             {{ person.contact.github }}
           </span>
@@ -177,7 +177,7 @@
         class="contributions-section section">
 
         <div class="icon">
-          <i class="fa fa-heart font-awesome-icons"></i>
+          <i class="fas fa-heart font-awesome-icons"></i>
           <span class="section-headline"> {{lang.contributions}} </span>
         </div>
 

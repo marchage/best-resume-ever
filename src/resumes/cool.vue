@@ -65,28 +65,28 @@
               v-if="person.contact.website"
               class="section-link"
               :href="person.contact.website">
-              <i class="section-link__icon fa fa-globe"></i>{{ person.contact.website }}
+              <i class="section-link__icon fas fa-globe-americas"></i>{{ person.contact.website }}
             </a>
 
             <a
               v-if="person.contact.linkedin"
               class="section-link"
               :href="'https://linkedin.com/in/' + person.contact.linkedin">
-              <i class="section-link__icon fa fa-linkedin"></i>{{ person.contact.linkedin }}
+              <i class="section-link__icon fab fa-linkedin"></i>{{ person.contact.linkedin }}
             </a>
 
             <a
               v-if="person.contact.github"
               class="section-link"
               :href="'https://github.com/' + person.contact.github">
-              <i class="section-link__icon fa fa-github"></i>{{ person.contact.github }}
+              <i class="section-link__icon fab fa-github"></i>{{ person.contact.github }}
             </a>
 
             <a
               v-if="person.contact.medium"
               class="section-link"
               :href="'https://medium.com/@' + person.contact.medium">
-              <i class="section-link__icon fa fa-medium"></i>{{ person.contact.medium }}
+              <i class="section-link__icon fab fa-medium"></i>{{ person.contact.medium }}
             </a>
           </div>
         </div>
@@ -159,7 +159,7 @@
           v-if="person.contributions"
           class="section">
           <div class="section-headline">
-            <i class="section-headline__icon fa fa-heart"></i>{{lang.contributions}}
+            <i class="section-headline__icon fas fa-heart"></i>{{lang.contributions}}
           </div>
 
           <div class="section-content-grid">

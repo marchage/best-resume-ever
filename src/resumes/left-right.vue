@@ -26,23 +26,23 @@
       <table>
         <tr>
           <td><a :href="'mailto:'+person.contact.email">{{person.contact.email}}</a></td>
-          <td><i class="fa fa-envelope" aria-hidden="true"></i></td>
+          <td><i class="fas fa-envelope" aria-hidden="true"></i></td>
         </tr>
         <tr>
           <td><a :href="'tel:'+person.contact.phone">{{person.contact.phone}}</a></td>
-          <td><i class="fa fa-phone" aria-hidden="true"></i></td>
+          <td><i class="fas fa-phone" aria-hidden="true"></i></td>
         </tr>
         <tr>
           <td>{{person.contact.street}} <br> {{person.contact.city}}</td>
-          <td><i class="fa fa-home" aria-hidden="true"></i></td>
+          <td><i class="fas fa-home" aria-hidden="true"></i></td>
         </tr>
         <tr v-if="person.contact.website">
           <td><a :href="person.contact.website">{{person.contact.website}}</a></td>
-          <td><i class="fa fa-globe" aria-hidden="true"></i></td>
+          <td><i class="fas fa-globe-americas" aria-hidden="true"></i></td>
         </tr>
         <tr v-if="person.contact.github">
           <td><a :href="'https://github.com/'+person.contact.github">https://github.com/{{person.contact.github}}</a></td>
-          <td><i class="fa fa-github" aria-hidden="true"></i></td>
+          <td><i class="fab fa-github" aria-hidden="true"></i></td>
         </tr>
       </table>
     </div>
