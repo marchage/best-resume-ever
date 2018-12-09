@@ -225,7 +225,7 @@ p {
 .m_box {
   box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
-.fa, .material-icons {
+.fas, .fab, .material-icons {
   display:inline-block;
   font-style:normal;
   font-weight:normal;
@@ -290,7 +290,7 @@ h4 {
       width:16%;
       float:left;
       margin-left:0;
-      .fa, .material-icons {
+      .fas, .fab, .material-icons {
         text-align:center;
         display:block;
         font-size:30pt;
@@ -362,7 +362,7 @@ h4 {
     width:100%;
     margin-top:13px;
     float:left;
-    .fa, .material-icons {
+    .fas, .fab, .material-icons {
       display:inherit;
       text-align:center;
     }
@@ -420,7 +420,7 @@ h4 {
             position:absolute;
             top:0;
             bottom:0;
-            .fa, .material-icons {
+            .fas, .fab, .material-icons {
               font-size:13px;
               position:absolute;
               top:-4px;
