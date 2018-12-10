@@ -5,72 +5,53 @@ name:
   last: Hage
 about: Hi, my name is Marc Hage. I've always worked with web languages. I love coding, keeping 
        things simple and/or adhering to technical standards. I used to steer clear of 
-       javascript. Now it is the opposite.
-position: Web Programming & Devops
+       javascript/ecmascript. Now it is the opposite.
+position: Web Programming
 
 birth:
   year: 1980
   location: Heemstede
 
 experience:
-- company: Datlinq
+- company: Datlinq | Sendsteps | Atabix | MARC-IT
   position: Programmer
-  timeperiod: since March 2018
-  description: JavaScript and php programmer.
-  website: https://datlinq.com/
-
-- company: Sendsteps
-  position: Programmer and devops
-  timeperiod: April 2016 - March 2018
-  description: Javascript and php programmer, devops.
-  website: https://www.sendsteps.com/
-
-- company: Atabix
-  position: Programmer
-  timeperiod: Januari 2012 - December 2012
-  description: Javascript and php programmer.
-  website: https://www.atabix.com/
-
-- company: ...(various)
-  position: Programmer, freelance
-  timeperiod: June 2006 - August 2013 & December 2014 - June 2015
-  description: Javascript php programmer, technical consultant (/instructor/network admin/helpdesk).
+  timeperiod: since July 2006, with intermezzo's
+  description: Javascript/php programmer, sometimes freelance
 
 - company: Sogeti
   position: Test engineer
   timeperiod: July 2010 - December 2011
-  description: test engineer, web app pen-tester.
+  description: tester, web pen-tester.
   website: https://www.sogeti.nl/
 
-- company: V & D, Perla Kantoor, Phones H'stede
+- company: V & D | Perla Kantoor | Phones H'stede
   position: Sales clerk
   timeperiod: 1998 - 2006
-  description: Sales clerk, part-time
+  description: Part-time sales clerk
 
 education:
 - degree: Bachelor of Science
   timeperiod: 2001 - 2010
-  description: Informatica, Vrije Universiteit, Amsterdam, The Netherlands.
+  description: Computer science, VU Amsterdam, The Netherlands.
   website: https://www.vu.nl/
 
-- degree: TMap Next & Business course Sogeti
+- degree: TMap Next
   timeperiod: July 2010 - September 2010
-  description: Sogeti (NL) & Ohio University (US).
+  description: Includig business course at Ohio University (US).
+  website: http://tmap.net/tmap-next
 
 # skill level goes 0 to 100
 skills:
 - name: HTML, CSS
   level: 90
 - name: JavaScript
-  level: 93
+  level: 99
 - name: Angular
   level: 66
 - name: React
   level: 78
-- name: Ecma2015
-  level: 80
 - name: Node.js
-  level: 70
+  level: 72
 - name: PHP
   level: 85
 - name: Yii2
@@ -80,47 +61,41 @@ skills:
 - name: Docker
   level: 81
 
-knowledge: Also proficient in Adobe Photoshop and to a lesser extent Adobe Illustrator
+knowledge: Also proficient in Photoshop and to a lesser extent Illustrator
 
 projects:
-- name: Quaestor College Chaos, Unitas Studiosorum Amstelodamensium
-  platform: Pen & paper, Excel
-  description: I was 1 of 3 fraternity board members. My role was comptroller for a year.
-  url: unsure
+- name: Running a part-time business
+  platform: Typo3, PHP, HTML-CSS, Flash-ActionScript, Ubuntu, Windows, OSX, PhotoShop
+  description: Servicing clients' IT needs.
 
-- name: running a part-time IT business
-  platform: Typo3, PHP, HTML/CSS, Ubuntu, Windows
-  description: servicing clients in their IT needs.
-  url: (not the current) https://www.use-poultry-tech.com/, (clients of) https://www.vicus.nl
+- name: Quaestoraat College Chaos, Unitas Amsterdam
+  platform: Excel, Word
+  description: Comptroller for a 1 year term.
 
 hobbies:
-- name: Javascript-ing in various forms, e.g. node, greacemonkey, react
+- name: Javascript-ing in various forms, e.g. front-end, backend, or greacemonkey
   iconClass: fab fa-js-square
-  url: --
 
-- name: shell (bash) scripting and thus server maintenance
+- name: shell scripting and thus server maintenance
   iconClass: fas fa-terminal
-  url: --
 
 - name: digital automation
   iconClass: fas fa-desktop
-  url: --
 
 - name: pretty interfaces
   iconClass: fas fa-award
-  url: --
 
 contributions:
-- name: -- 
-  description: No open source contributions worth mentioning
+- name: (None)
+  description: No worth-mentioning open source contributions
   url: https://github.com/marchage
 
 contact:
   email: marc.hage@me.com
-  phone: -- (at request)
-  street: -- (at request)
+  phone: --
+  street: --
   city: Amsterdam
-  website: marchage.github.com
+  website: https://marchage.github.io/
   github: marchage
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
