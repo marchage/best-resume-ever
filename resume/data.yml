@@ -3,10 +3,10 @@ name:
   first: Marc
   middle:
   last: Hage
-about: Hi, my name is Marc Hage. I've always worked with web languages. I love coding, keeping 
+about: Hi, my name is Marc Hage. I've always worked with web languages. I love keeping 
        things simple and/or adhering to technical standards. I used to steer clear of 
        javascript/ecmascript. Now it is the opposite.
-position: Web Programming
+position: Full Stack Programming
 
 birth:
   year: 1980
@@ -24,11 +24,6 @@ experience:
   description: tester, web pen-tester.
   website: https://www.sogeti.nl/
 
-- company: V & D | Perla Kantoor | Phones H'stede
-  position: Sales clerk
-  timeperiod: 1998 - 2006
-  description: Part-time sales clerk
-
 education:
 - degree: Bachelor of Science
   timeperiod: 2001 - 2010
@@ -42,60 +37,60 @@ education:
 
 # skill level goes 0 to 100
 skills:
-- name: HTML, CSS
-  level: 90
 - name: JavaScript
-  level: 99
-- name: Angular
-  level: 66
+  level: 95
+- name: D3
+  level: 88
+- name: CouchBase
+  level: 61
 - name: React
   level: 78
 - name: Node.js
-  level: 72
+  level: 69
 - name: PHP
-  level: 85
-- name: Yii2
-  level: 86
-- name: Typo3
-  level: 68
+  level: 90
+- name: Angular
+  level: 66
 - name: Docker
   level: 81
-
-knowledge: Also proficient in Photoshop and to a lesser extent Illustrator
+knowledge: Also proficient in Photoshop, Illustrator, and Dutch(!).
 
 projects:
-- name: Running a part-time business
-  platform: Typo3, PHP, HTML-CSS, Flash-ActionScript, Ubuntu, Windows, OSX, PhotoShop
-  description: Servicing clients' IT needs.
+- name: Web charts
+  platform: Javascript, D3
+  description: C3js webchart customization for interactive Powerpoint voting
+  url: https://c3js.org/
 
-- name: Quaestoraat College Chaos, Unitas Amsterdam
+- name: My first company
+  platform: PHP, HTML-CSS, Flash-ActionScript, Typo3, PhotoShop
+  description: IT service providing
+  url: --
+
+- name: Quaestor dispuut Chaos, Unitas Amsterdam
   platform: Excel, Word
-  description: Comptroller for a 1 year term.
+  description: Comptroller for 1 year
+  url: https://www.unitas-amsterdam.nl/
 
 hobbies:
-- name: Javascript-ing in various forms, e.g. front-end, backend, or greacemonkey
+- name: JavaScript user.js
   iconClass: fab fa-js-square
+  url: https://en.wikipedia.org/wiki/Greasemonkey
 
-- name: shell scripting and thus server maintenance
+- name: shell scripting
   iconClass: fas fa-terminal
+  url: https://devhints.io/bash
 
-- name: digital automation
-  iconClass: fas fa-desktop
-
-- name: pretty interfaces
-  iconClass: fas fa-award
-
-contributions:
-- name: (None)
-  description: No worth-mentioning open source contributions
-  url: https://github.com/marchage
+# contributions:
+# - name: best-resume-ever
+#   description: 
+#   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
   email: marc.hage@me.com
   phone: --
   street: --
   city: Amsterdam
-  website: https://marchage.github.io/
+  website: https://codepen.io/marchage
   github: marchage
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
